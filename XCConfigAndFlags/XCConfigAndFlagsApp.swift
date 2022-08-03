@@ -9,6 +9,17 @@ import SwiftUI
 
 @main
 struct XCConfigAndFlagsApp: App {
+
+    init() {
+        #if DEV
+        print("DEV")
+        #elseif DEBUG
+        print("DEBUG")
+        #else
+        print("RELEASE")
+        #endif
+    }
+
     var body: some Scene {
         WindowGroup {
             ContentView()

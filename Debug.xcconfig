@@ -1,0 +1,12 @@
+//
+//  Debug.xcconfig
+//  XCConfigAndFlags
+//
+//  Created by Jonni Akesson on 2022-08-03.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+CT_ACCENT_COLOR = DebugAccentColor
+CT_HELP_SITE = youtube.com/StewartLynch
